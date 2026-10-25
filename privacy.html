@@ -14,7 +14,7 @@
   <main>
     <p class="eyebrow">Platné od 25. října 2026</p>
     <h1>Zásady soukromí</h1>
-    <p>Hermes Personal Drive je soukromé připojení provozované vlastníkem pro jeho osobní potřebu. Není určeno k registraci dalších uživatelů. Tyto zásady popisují jeho propojení s Google Drivem.</p>
+    <p>Hermes Personal Drive je soukromé připojení provozované vlastníkem pro jeho osobní potřebu. Není určeno k registraci dalších uživatelů. Tyto zásady popisují jeho propojení s Google Drivem a volitelně s Gmailem.</p>
     <h2>Jaká data připojení používá</h2>
     <p>Připojení ověřuje e-mail účtu, čte názvy a základní údaje souborů a na pokyn vlastníka získává obsah dokumentů z vybraných složek. U schválených nahrání používá vybraný originál, jeho název a kontrolní součet k ověření kopie.</p>
     <h2>Rozsah oprávnění Googlu</h2>
@@ -23,6 +23,11 @@
       <li><strong>Soubory používané aplikací (drive.file):</strong> umožňuje práci se soubory, ke kterým má aplikace tento přístup. Připojení ho používá pro schválené kopie originálů ve své soukromé složce.</li>
     </ul>
     <p>Každé nahrání vyžaduje schválení konkrétního souboru vlastníkem. Připojení soubory veřejně nesdílí.</p>
+    <h2 id="gmail">Gmail: koncepty a schválené odeslání</h2>
+    <p>Volitelné připojení Gmailu používá samostatně uložené přístupové údaje. Oprávnění <strong>gmail.compose</strong> od Googlu umožňuje správu konceptů a odesílání zpráv; nejde o oprávnění pouze k vytváření konceptů. Připojení omezuje práci na koncepty, které samo vytvořilo. Identitu vlastníka ověřuje pomocí oprávnění openid a e-mailové adresy.</p>
+    <p>Před odesláním vlastník dostane do svého soukromého chatu v Telegramu přesného adresáta, předmět a celý text. Odeslání vyžaduje jeho samostatnou zprávu s jednorázovým souhlasem. Souhlas platí nejvýše 15 minut, jen pro danou verzi, a nelze jej použít znovu. Při změně konceptu přestane platit. Při nejasném výsledku odeslání se zpráva automaticky neposílá podruhé.</p>
+    <p>První verze podporuje jednoho adresáta a prostý text bez příloh a kopií. Neprohledává doručenou poštu. Koncepty zůstávají v Gmailu; jejich schvalované znění a záznamy operací jsou také v odděleném úložišti na soukromém serveru. Plný náhled je doručen přes Telegram. Zrušení souhlasu ponechá koncept v Gmailu.</p>
+    <p>Text konceptu může připravit model Hermese z podkladů, které mu vlastník sám určí ke zpracování. Samotné připojení neodesílá stažené zprávy Gmailu do externích modelů. Firemní, zdravotnické a služební citlivé podklady vyžadují zvláštní souhlas vlastníka pro AI zpracování; souhlas s odesláním e-mailu jej nenahrazuje.</p>
     <h2>Kde jsou data uložená</h2>
     <p>Stažené originály, získaný text a záznamy operací jsou uloženy v osobním prostředí na serveru pod kontrolou vlastníka; poznámky mohou být synchronizované do jeho počítače a Obsidianu. Schválené kopie jsou uložené v jeho účtu Google Drive. Přístupové údaje jsou uložené odděleně s omezenými přístupovými právy.</p>
     <h2>Použití obsahu a externí AI</h2>
@@ -30,7 +35,7 @@
     <p>Při ovládání přes Telegram se příkazy a odpovědi zobrazují ve vlastním chatu s botem; odpovědi mohou obsahovat náhled získaného textu. Pro přenos a zobrazení těchto zpráv se uplatní také pravidla Telegramu. Veřejný web níže žádný takový obsah nepřijímá.</p>
     <h2>Uchování, odstranění a odpojení</h2>
     <p>Vlastník spravuje uložené soubory a může je odstranit ze serveru, osobního úložiště i Drivu. Archivní kopie a zálohy mohou zůstat uložené, dokud je také neodstraní. Přístup Googlu lze kdykoli odebrat v <a href="https://myaccount.google.com/connections">nastavení propojení Google účtu</a>.</p>
-    <p>Odebrání přístupu zastaví další přístup připojení k Drivu. Samo o sobě nemaže dříve stažené soubory, poznámky, zprávy v Telegramu ani zálohy.</p>
+    <p>Odebrání přístupu zastaví další přístup připojení k příslušným službám Googlu. Samo o sobě nemaže dříve stažené soubory, poznámky, zprávy v Telegramu ani zálohy.</p>
     <h2>Tento informační web</h2>
     <p>Tyto stránky hostuje GitHub Pages. Neobsahují formuláře, přihlašování, přidané měřicí skripty ani reklamní nástroje. GitHub může zpracovávat běžné technické údaje o návštěvě podle svých <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">zásad soukromí</a>. Osobní soubory ani přístupové údaje zde nejsou zveřejněné.</p>
     <h2>Správa připojení</h2>
